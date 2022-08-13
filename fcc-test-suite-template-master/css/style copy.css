@@ -15,6 +15,7 @@ body {
     color: var(--color-white);
     margin: 0;
     content: '';
+    position: fixed;
     top: 0;
     left: 0;
     height: 100%;
@@ -36,45 +37,17 @@ form {
     margin-top: 0em;
     width: 50%;
     margin: auto;
-    height: 100%;
-
-}
-
-input{
-    height: 1.5rem;
-}
-select{
-    height: 2rem;
 }
 
 
-.from-group{
+#from-group{
     margin: 0 auto 1.25rem auto;
     padding: 0.25rem;
     width: 90%;
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start; 
-    text-align: left;
-    
+    display:block;
 }
 
-.radio-buttons{
-    width: 20%;
-}
-.radio-button-label{
-   width: 40%;
-}
-.radio-group{
-    display:flex;
-    flex-direction: row;
-    justify-content: flex-start; 
-}
-.label-user-recommend{
-    width: 100%;
-}
-
-from-group.label{
+#from-group.label{
     width: 100%;
 }
 
